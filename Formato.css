@@ -1,0 +1,62 @@
+html, BODY{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:black;
+     }
+
+/* cambio de color de iconos */     
+SVG{
+    FILL: white;
+    }
+
+/* formato título repositorio */   
+.repo{
+    display: flex;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 18px;
+    color: #0366d6;
+    margin-top: 1rem;
+}
+
+.actividad{
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: 550;
+    color: #0366d6;
+}
+
+.margen-repo{
+    margin-left: 5px;
+}
+
+/* formato estadísticas */  
+.Estadisticas-datos{
+    display: flex;
+    padding-left: 1rem;  
+}
+
+.Estadisticas{
+    display: flex;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 1rem;
+}
