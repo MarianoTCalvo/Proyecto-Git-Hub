@@ -19,22 +19,34 @@ header{
     justify-content: space-between;
     padding: 1rem;
     background-color:black;
+    margin: 0px;
+    
      }
 
+
+/* cambio de color de encabezado */  
+.encabezado{
+    background-color:#f6f8fa;
+    margin: 0px;
+    color:#6a737d;
+}
 /* cambio de color de iconos */     
-SVG{
+.SVG-encabezado{
     FILL: white;
     }
+.SVG-section1{
+    Fill: #6a737d;  
+}
 
 /* formato título repositorio */   
 .repo{
     display: flex;
     padding-left: 1rem;
-    margin: 0;
+    margin: 0px;
     font-size: 18px;
     color: #0366d6;
-    margin-top: 1rem;
-}
+    padding-top: 1rem;
+  }
 
 .actividad{
     margin: 0;
@@ -59,4 +71,41 @@ SVG{
     margin: 0;
     font-size: 14px;
     margin-top: 1rem;
+}
+
+/* formato botones */  
+
+.Botonera{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+Button{
+    display: flex;
+    justify-content: center;
+    background-color:#f6f8fa;
+    padding: 2px 0px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.color-letra-boton{
+    color: #2f363d;
+}
+
+.boton-watch{
+    margin-left: 5px;
+}
+
+/* formato navegador */  
+.Navegador{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navegadores{
+    padding: 1rem;
+    color: #2f363d;
 }
