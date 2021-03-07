@@ -23,6 +23,12 @@ header{
     color: white;
      }
 
+ol{padding: 0px;
+}
+
+li{
+    list-style: none;
+}
 
 /* cambio de color de encabezado */  
 .encabezado{
@@ -92,7 +98,9 @@ display: flex;
 margin: 1rem;
 justify-content: center;
 }
-Button{
+
+
+.boton{
 display: flex;
 justify-content: center;
 background-color:#f6f8fa;
@@ -343,8 +351,59 @@ margin-right: 1rem;
     margin-left: 1rem;
 }
 
+/* Sección encabezado para desktop*/ 
 .margin-header-d{
     margin-left: 1rem;
 }
 
+.encabezado-desktop{
+    display: flex;
+    justify-content: space-between;
+
+}
+.padding-actividad-desktop{
+    padding-top: 1rem;
+    padding-left: 0rem;
+}
+
+/* Botonera para desktop*/ 
+
+.boton{
+    padding: 0px 0px 0px 10px;
+    margin-left: 5px;
+}
+
+.numero-boton{
+    padding:2px 5px;
+    background-color: white;
+    border-left: 1px solid;
+}
+
+.margen-texto-boton{
+    padding-right: 10px;
+}
+
+.boton-watch{
+     order: -1;
+}
+
+/* Navegador para desktop*/ 
+.Navegador{
+    justify-content: flex-start;
+}
+
+.lista-navegador{
+    display: flex;
+    padding-bottom: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navegadores{
+    padding: 0px 5px;
+}
+
+.svg-navegador{
+fill:#959da5;
+}
 }
