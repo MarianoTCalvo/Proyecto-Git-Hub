@@ -179,6 +179,11 @@ color:blue
 }
 /* Botones Main */  
 
+.sector-boton{
+    width: 100%;
+    display: flex;
+}
+
 .botones-main{
 display: flex;
 justify-content: space-between;
@@ -189,12 +194,17 @@ margin-top: 25px;
 
 .boton-main{
 padding: 5px 0px;
-width: 35%;
+width: 70%;
+}
+
+.sector-boton-puntos{
+    display: flex;
+    justify-content:flex-end;
 }
 
 .boton-puntos{
 padding: 5px 0px;
-width: 15%;
+width: 30%;
 }
 
 /* Título central */  
@@ -406,4 +416,83 @@ margin-right: 1rem;
 .svg-navegador{
 fill:#959da5;
 }
+
+/* Sector boton main para desktop*/ 
+.estadisticas-boton-main{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.margen-boton-main{
+    margin-left: 2px;
 }
+
+.boton-main{
+    padding: 5px 0px;
+    width: 25%;
+    }
+
+.botones-main{
+    margin-left: 3rem;
+}
+
+.boton-sector-puntos{
+    padding: 5px 0px;
+    width: 25%;
+    }
+
+.boton-code{
+    background-color: #34d058;
+    border-color: #28a745;
+}
+
+.color-letra-boton-code{
+    color: white;
+}
+
+.color-iconos-boton-code{
+    fill: white;
+}
+
+.letra-negrita{
+    font-weight: bold;
+}
+
+/* distribución en columnas sector principal para desktop*/ 
+
+.cuerpo-escritorio{
+    display: flex;
+    flex-direction: row;
+}
+.columna-1{
+    width: 75%;
+}
+
+.columna-2{
+    width: 25%;
+}
+
+/* seccion about para desktop*/ 
+
+.texto-titulo-about{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.about-readme{
+    display: flex;
+}
+
+.margen-readme{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* seccion columna 2*/ 
+.margen-texto-desktop{
+    margin-bottom: 20px;
+}
+}
+
