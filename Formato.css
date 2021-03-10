@@ -146,6 +146,9 @@ border-width: 1px;
 border-radius: 15px 15px 0px 0px;
 }  
 
+.color-letra-azul{
+    color: blue;
+}
 .nombre{
 display: flex;
 justify-content: space-between;
@@ -561,6 +564,51 @@ footer{
     fill:#e1e4e8;
     margin-top: 1rem;
     margin-bottom: 3rem;
+}
+
+/* sector nombre desktop*/ 
+
+.sector-nombres{
+    margin-left:3rem; 
+}
+
+.sector-nombres-2{
+    margin-left:3rem;
+    margin-right: 1rem;
+}
+
+.sector-view-code{
+    margin-left: 0px;
+}
+
+.display-datos-sector-nombre{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border: solid;
+    border-color:#f6f8fa;
+    border-width: 1px;
+}
+
+.display-datos{
+    color:#959da5;
+}
+
+.display-datos-sector-nombre-radius{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.display-datos-archivos{
+    margin-left: 1rem;
+}
+
+.display-datos-meses{
+    margin-right: 1rem;
+}
+
+.display-datos-texto{
+    text-align: end;
 }
 
 }
