@@ -582,8 +582,8 @@ footer{
 }
 
 .display-datos-sector-nombre{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
     padding-top: 15px;
     border: solid;
     border-color:#f6f8fa;
@@ -601,14 +601,18 @@ footer{
 
 .display-datos-archivos{
     margin-left: 1rem;
+    grid-column: 1;
 }
 
 .display-datos-meses{
+    grid-column: 3;
     margin-right: 1rem;
+    text-align: end;
 }
 
 .display-datos-texto{
-    text-align: end;
+    grid-column: 2;
+    text-align: start;
 }
 
 }
