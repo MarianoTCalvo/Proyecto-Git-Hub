@@ -115,6 +115,7 @@ color: #2f363d;
 
 .boton-watch{
 margin-left: 5px;
+width: 100%;
 }
 
 /* formato navegador */  
@@ -337,6 +338,35 @@ justify-content: center;
 margin-left: 1rem;
 margin-right: 1rem;
 }
+
+/* botón watch y menu*/ 
+
+
+
+.texto-menu-watch{
+    font-size: 14px;
+}
+.sector-menu-watch{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    margin: 20px;
+}
+
+.expandible-menu-watch:focus + .menu-content-watch {
+    display: block;
+}
+
+.notifcations{
+    font-weight: bold;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+}
+
+.titulo-menu-watch{
+    font-size: 15px;
+}
  
 /* Mobile first */ 
 
@@ -346,6 +376,19 @@ margin-right: 1rem;
         display: none;
 }
     
+.menu-content-watch{
+    display: none;
+    position: absolute;
+    top:10%;
+    left: 5%;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    border-radius: 15px;
+     
+}
+
 }
          
 /* Desktop */ 
@@ -450,6 +493,11 @@ fill:#959da5;
     width: 25%;
     }
 
+.boton-add-file{
+    padding: 5px 0px;
+    width: 95%;
+}
+    
 .boton-code{
     background-color: #34d058;
     border-color: #28a745;
@@ -613,6 +661,116 @@ footer{
 .display-datos-texto{
     grid-column: 2;
     text-align: start;
+}
+
+/* animación desktop*/ 
+
+/* botón add files*/
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+     
+}
+
+.expandible-menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px; 
+    width: 95%;
+}
+
+
+.expandible-menu:focus + .menu-content {
+    display: block;
+  }
+  
+.expandible-menu:hover{
+    background-color: rgb(211, 211, 211);
+  }
+
+.li-contenido:hover{
+    background-color: blue;
+    color: white;
+}
+
+   
+.ul-menu-formato{
+    padding: 0px;
+
+} 
+
+.li-contenido{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+
+/* botón code*/ 
+
+.menu-content-code{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    border-radius: 15px;
+    }
+
+.menu-code-superior{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+
+.menu-code-intermedio{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-code-inferior{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.expandible-menu-code{
+    width: 95%;
+}
+
+.url-clonado{
+    width: 100%;
+}
+
+.expandible-menu-code:focus + .menu-content-code {
+    display: block;
+  }
+
+.display-flex-menu-code{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    
+}
+
+/* botón watch y menu*/ 
+
+.menu-content-watch{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #f6f8fa;
+    border-radius: 15px;
+     
 }
 
 }
