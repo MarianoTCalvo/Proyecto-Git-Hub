@@ -1,6 +1,7 @@
 body{
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 14px;
+    background-color: var(--negro);
 }
 
 p{
@@ -23,9 +24,17 @@ li{
     list-style: none;
 }
 
+button{
+    color:var(--gris-claro-4); 
+}
+
+svg{
+    color:var(--gris-claro-4); 
+}
+
 /* cambio de color de encabezado */  
 .encabezado{
-    background-color:var(--gris-claro);
+    background-color:#24292e;
     margin: 0px;
     color:var(--gris-oscuro);
 }
@@ -35,14 +44,14 @@ li{
     FILL: var(--blanco);
     }
 .SVG-section1{
-    Fill: var(--gris-oscuro);  
+    Fill: var(--gris-claro-4);  
 }
 
   /* cambio de color de encabezado */  
   .encabezado{
-    background-color:var(--gris-claro);
+    background-color:var(--negro-claro);
     margin: 0px;
-    color:var(--gris-oscuro);
+    color:var(--gris-claro-4);
 }
     /* cambio de color de iconos */     
 .SVG-encabezado{
@@ -96,14 +105,14 @@ justify-content: center;
 .boton{
 display: flex;
 justify-content: center;
-background-color:var(--gris-claro);
+background-color:var(--negro-claro-2);
 padding: 5px 0px;
 width: 100%;
 border-radius: 5px;
 }
 
 .color-letra-boton{
-color: var(--gris-oscuro-3);
+color: var(--gris-claro-4);
 }
 
 .boton-watch{
@@ -117,11 +126,12 @@ display: flex;
 justify-content: space-between;
 margin-left: 1rem;
 margin-right: 1rem;
+margin-bottom: 1rem;
 }
 
 .navegadores{
 padding: 1rem;
-color: var(--gris-oscuro-3);
+color: var(--gris-claro-4);
 }
 
 /* formato nombres */
@@ -140,17 +150,31 @@ border-width: 1px;
 border-radius: 15px 15px 0px 0px;
 }  
 
+.sector-view-code{
+    background-color: var(--negro-claro-2);
+}
+
+.sector-nombres{
+    background-color: var(--negro-claro);
+}
+
+.color-svg{
+    fill:var(--gris-claro-4)
+}
+
 .color-letra-azul{
     color:var(--azul);
 }
 .nombre{
 display: flex;
 justify-content: space-between;
+color: var(--gris-claro-4)
 }
 
 .fecha{
 display: flex;
 justify-content: space-between;
+color: var(--gris-claro-4)
 }
 
 .margen-sector-nombre{
@@ -175,6 +199,10 @@ border-radius: 0px 0px 15px 15px;
 color:var(--azul)
 }
 /* Botones Main */  
+
+.cuerpo-escritorio{
+    background-color: var(--negro);
+}
 
 .sector-boton{
     width: 100%;
@@ -213,6 +241,8 @@ border-width: 2px;
 border-left: none;
 border-right: none;
 margin-top: 20px;
+background-color: var(--negro-claro-2);
+Color: var(--gris-claro-4)
 }
 
 .titulo{
@@ -265,16 +295,38 @@ border-right: none;
 border-top: none;
 }
 
+.columna-1{
+    background-color: var(--negro);
+}
+
+.columna-2{
+ Color: var(--gris-claro-4)
+}
+
 .texto-titulo-secundario{
 font-size: 12px; 
-color: var(--negro);
+color: var(--negro-claro-2);
 }
+
+.texto-titulo-secundario{
+    font-size: 12px; 
+    color: var(--gris-claro-4);
+    }
 
 .padding-inferior{
 padding-bottom: 40px;
 }
 
 /* Footer */  
+footer{
+    background-color: var(--negro);
+}
+
+.letra-color-marca{
+    color: var(--negro-claro-2)
+    
+}
+
 .footer{
 display: flex;
 justify-content: space-around;
@@ -332,6 +384,11 @@ margin-left: 1rem;
 margin-right: 1rem;
 }
 
+.letra-negrita{
+    font-weight: 900;
+}
+
+
 /* botón watch y menu*/ 
 
 
@@ -372,7 +429,7 @@ margin-right: 1rem;
     position: absolute;
     top:10%;
     left: 5%;
-    background-color: var(--blanco);
+    background-color: var(--negro-claro-2);
     border: solid;
     border-width: 1px;
     border-color:var(--gris-claro);

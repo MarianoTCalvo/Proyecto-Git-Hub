@@ -6,6 +6,10 @@
     
     /* header */ 
     
+    header{
+        background-color: var(--negro-claro);
+    }
+
     .busqueda{
         background: var(--gris-oscuro-3);
         margin: 0px;
@@ -22,6 +26,12 @@
         margin-left: 1rem;
     }
     
+    .encabezado{
+        background-color: var(--negro);
+        border-bottom: solid;
+        border-color: var(--gris-claro-4);
+        border-width: 1px;
+    }
     .encabezado-desktop{
         display: flex;
         justify-content: space-between;
@@ -41,7 +51,7 @@
     
     .numero-boton{
         padding:2px 5px;
-        background-color: var(--blanco);
+        background-color: var(--negro-claro-2);
         border-left: 1px solid;
     }
     
@@ -84,6 +94,9 @@
         margin-left: 2px;
     }
     
+    .cuerpo-escritorio{
+        color: var(--gris-claro-4);
+    }
     .boton-main{
         padding: 5px 0px;
         width: 25%;
@@ -177,6 +190,7 @@
         border-left: solid;
         border-right: solid;
         border-color:var(--gris-claro);
+        background-color: var(--negro);
     }
     
     .readme{
@@ -194,7 +208,7 @@
         display: flex;
         justify-content: space-around;
         border-top: solid;
-        border-color:#f6f8fa;
+        border-color:var(--gris-claro);
         margin-left:3rem;
         margin-right: 3rem;
     }
@@ -222,14 +236,19 @@
     /* sector nombre desktop*/ 
     
     .sector-nombres{
-        margin-left:3rem; 
+        margin-left:3rem;
+        background-color: var(--negro); 
     }
     
     .sector-nombres-2{
         margin-left:3rem;
         margin-right: 1rem;
+        color: var(--gris-claro-4)
     }
     
+    .svg-color{
+        fill: var(--gris-claro-4)
+    }
     .sector-view-code{
         margin-left: 0px;
     }
@@ -239,7 +258,7 @@
         grid-template-columns: repeat(3,33%);
         padding-top: 15px;
         border: solid;
-        border-color:#f6f8fa;
+        border-color:var(--gris-claro);
         border-width: 1px;
     }
     
@@ -275,7 +294,7 @@
     .menu-content {
         display: none;
         position: absolute;
-        background-color: var(--blanco);
+        background-color: var(--negro-claro-2);
          
     }
     
@@ -318,7 +337,7 @@
     .menu-content-code{
         display: none;
         position: absolute;
-        background-color: var(--blanco);
+        background-color: var(--negro-claro-2);
         border: solid;
         border-width: 1px;
         border-color:var(--gris-claro);
@@ -370,7 +389,7 @@
     .menu-content-watch{
         display: none;
         position: absolute;
-        background-color: var(--blanco);
+        background-color: var(--negro-claro-2);
         border: solid;
         border-width: 1px;
         border-color:var(--gris-claro);
