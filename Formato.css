@@ -9,3 +9,21 @@ html, BODY{
     margin: 0;
     padding: 0;
     }
+
+:root {     
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-claro: #f6f8fa;
+    --gris-claro-2: #f1f8ff;
+    --gris-claro-3: #e1e4e8;
+    --gris-claro-4: rgb(211, 211, 211);
+    --gris-oscuro: #6a737d;
+    --gris-oscuro-2: #959da5;
+    --gris-oscuro-3: #2f363d;    
+    --naranja: #e36209;
+    --violeta: #3a1d6e;
+    --verde-claro: #34d058;
+    --verde-oscuro: #28a745;
+    --azul: #0000FF;
+    --azul-electrico: #0366d6;
+    }

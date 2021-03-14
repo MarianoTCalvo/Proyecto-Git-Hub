@@ -7,9 +7,9 @@
     /* header */ 
     
     .busqueda{
-        background: #2f363d;
+        background: var(--gris-oscuro-3);
         margin: 0px;
-        color: white;
+        color: var(--blanco);
     }
     
     .header-desktop{
@@ -41,7 +41,7 @@
     
     .numero-boton{
         padding:2px 5px;
-        background-color: white;
+        background-color: var(--blanco);
         border-left: 1px solid;
     }
     
@@ -70,7 +70,7 @@
     }
     
     .svg-navegador{
-    fill:#959da5;
+    fill:var(--gris-oscuro-2);
     }
     
     /* Sector boton main para desktop*/ 
@@ -104,16 +104,16 @@
     }
         
     .boton-code{
-        background-color: #34d058;
-        border-color: #28a745;
+        background-color: var(--verde-claro);
+        border-color: var(--verde-oscuro);
     }
     
     .color-letra-boton-code{
-        color: white;
+        color: var(--blanco);
     }
     
     .color-iconos-boton-code{
-        fill: white;
+        fill: var(--blanco);
     }
     
     .letra-negrita{
@@ -176,7 +176,7 @@
         margin-left: 3rem;
         border-left: solid;
         border-right: solid;
-        border-color:#f6f8fa;
+        border-color:var(--gris-claro);
     }
     
     .readme{
@@ -194,7 +194,7 @@
         display: flex;
         justify-content: space-around;
         border-top: solid;
-        border-color:#f6f8fa;
+        border-color:var(--gris-claro);
         margin-left:3rem;
         margin-right: 3rem;
     }
@@ -214,7 +214,7 @@
         margin-left: 0px;
     }
     .logo-footer{
-        fill:#e1e4e8;
+        fill: var(--gris-claro-3);
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
@@ -239,12 +239,12 @@
         grid-template-columns: repeat(3,33%);
         padding-top: 15px;
         border: solid;
-        border-color:#f6f8fa;
+        border-color:var(--gris-claro);
         border-width: 1px;
     }
     
     .display-datos{
-        color:#959da5;
+        color:var(--gris-oscuro-2);
     }
     
     .display-datos-sector-nombre-radius{
@@ -275,7 +275,7 @@
     .menu-content {
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: var(--blanco);
          
     }
     
@@ -292,12 +292,12 @@
       }
       
     .expandible-menu:hover{
-        background-color: rgb(211, 211, 211);
+        background-color:var(--gris-claro-4);
       }
     
     .li-contenido:hover{
-        background-color: blue;
-        color: white;
+        background-color: var(--azul);
+        color: var(--blanco);
     }
     
        
@@ -318,17 +318,17 @@
     .menu-content-code{
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: var(--blanco);
         border: solid;
         border-width: 1px;
-        border-color: #f6f8fa;
+        border-color:var(--gris-claro);
         border-radius: 15px;
         }
     
     .menu-code-superior{
         border-bottom: solid;
         border-width: 1px;
-        border-color: #f6f8fa;
+        border-color:var(--gris-claro);
         padding-top: 15px;
         padding-bottom: 15px;
         }
@@ -336,7 +336,7 @@
     .menu-code-intermedio{
         border-bottom: solid;
         border-width: 1px;
-        border-color: #f6f8fa;
+        border-color:var(--gris-claro);
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -370,10 +370,10 @@
     .menu-content-watch{
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: var(--blanco);
         border: solid;
         border-width: 1px;
-        border-color: #f6f8fa;
+        border-color:var(--gris-claro);
         border-radius: 15px;
          
     }

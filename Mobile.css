@@ -11,9 +11,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color:black;
+    background-color:var(--negro);
     margin: 0px;
-    color: white;
+    color: var(--blanco);
      }
 
 ol{padding: 0px;
@@ -25,28 +25,28 @@ li{
 
 /* cambio de color de encabezado */  
 .encabezado{
-    background-color:#f6f8fa;
+    background-color:var(--gris-claro);
     margin: 0px;
-    color:#6a737d;
+    color:var(--gris-oscuro);
 }
 
 /* cambio de color de iconos */     
 .SVG-encabezado{
-    FILL: white;
+    FILL: var(--blanco);
     }
 .SVG-section1{
-    Fill: #6a737d;  
+    Fill: var(--gris-oscuro);  
 }
 
   /* cambio de color de encabezado */  
   .encabezado{
-    background-color:#f6f8fa;
+    background-color:var(--gris-claro);
     margin: 0px;
-    color:#6a737d;
+    color:var(--gris-oscuro);
 }
     /* cambio de color de iconos */     
 .SVG-encabezado{
-FILL: white;
+FILL: var(--blanco);
     }
 
 /* formato título repositorio */   
@@ -55,7 +55,7 @@ display: flex;
 padding-left: 1rem;
 margin: 0px;
 font-size: 18px;
-color: #0366d6;
+color: var(--azul-electrico);
 padding-top: 1rem;
 }
 
@@ -64,7 +64,7 @@ margin: 0;
 padding-left: 1rem;
 font-size: 18px;
 font-weight: 550;
-color: #0366d6;
+color: var(--azul-electrico);
 }
 
 .margen-repo{
@@ -96,14 +96,14 @@ justify-content: center;
 .boton{
 display: flex;
 justify-content: center;
-background-color:#f6f8fa;
+background-color:var(--gris-claro);
 padding: 5px 0px;
 width: 100%;
 border-radius: 5px;
 }
 
 .color-letra-boton{
-color: #2f363d;
+color: var(--gris-oscuro-3);
 }
 
 .boton-watch{
@@ -121,7 +121,7 @@ margin-right: 1rem;
 
 .navegadores{
 padding: 1rem;
-color: #2f363d;
+color: var(--gris-oscuro-3);
 }
 
 /* formato nombres */
@@ -130,18 +130,18 @@ display: flex;
 justify-content: space-between;
 margin-left: 1rem;
 margin-right: 1rem;
-background-color: #f1f8ff;
+background-color: var(--gris-claro);
 padding-top:  10px; 
 padding-bottom: 10px;
 margin-top: 20px;
-border-color: #dbedff;
+border-color: var(--gris-claro-2);
 border-style: solid;
 border-width: 1px;
 border-radius: 15px 15px 0px 0px;
 }  
 
 .color-letra-azul{
-    color: blue;
+    color:var(--azul);
 }
 .nombre{
 display: flex;
@@ -168,11 +168,11 @@ margin-left: 1rem;
 margin-right: 1rem;
 padding-top:  10px; 
 padding-bottom: 10px;
-border-color: #dbedff;
+border-color:var(--gris-claro-2);
 border-style: solid;
 border-width: 1px;
 border-radius: 0px 0px 15px 15px;
-color:blue
+color:var(--azul)
 }
 /* Botones Main */  
 
@@ -207,7 +207,7 @@ width: 30%;
 /* Título central */  
 
 .titulo-central{
-border-color:#f6f8fa;
+border-color:var(--gris-claro);
 border-style: solid;
 border-width: 2px;
 border-left: none;
@@ -236,7 +236,7 @@ font-size: 16px;
 padding-top: 15px;
 padding-bottom: 25px;
 border-width: 2px;
-border-color:#f6f8fa;
+border-color:var(--gris-claro);
 border-style: solid;
 border-bottom: none;
 border-left: none;
@@ -258,7 +258,7 @@ font-size: 18px;
 margin-left: 1.5rem;
 margin-right: 1.5rem;
 border-width: 2px;
-border-color:#f6f8fa;
+border-color:var(--gris-claro);
 border-style: solid;
 border-left: none;
 border-right: none;
@@ -292,7 +292,7 @@ font-size: 12px;
 }
 
 .letra-color-azul{
-color: blue;
+color: var(--azul);
 margin-left: 5px;
 }
 
@@ -310,7 +310,7 @@ margin-left: 5px;
 /* Barra */ 
 .barra1{
 width: 78%;
-background-color: #e36209;
+background-color: var(--naranja);
 padding: 5px;
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
@@ -318,7 +318,7 @@ border-bottom-left-radius: 15px;
 
 .barra2{
 width: 22%;
-background-color:#3a1d6e;
+background-color:var(--violeta);
 padding: 5px;
 border-top-right-radius: 15px;
 border-bottom-right-radius: 15px;
@@ -342,7 +342,7 @@ margin-right: 1rem;
 .sector-menu-watch{
     border-bottom: solid;
     border-width: 1px;
-    border-color: #f6f8fa;
+    border-color:var(--gris-claro);
     margin: 20px;
 }
 
@@ -354,7 +354,7 @@ margin-right: 1rem;
     font-weight: bold;
     border-bottom: solid;
     border-width: 1px;
-    border-color: #f6f8fa;
+    border-color:var(--gris-claro);
 }
 
 .titulo-menu-watch{
@@ -372,10 +372,10 @@ margin-right: 1rem;
     position: absolute;
     top:10%;
     left: 5%;
-    background-color: white;
+    background-color: var(--blanco);
     border: solid;
     border-width: 1px;
-    border-color: #f6f8fa;
+    border-color:var(--gris-claro);
     border-radius: 15px;
      
 }
